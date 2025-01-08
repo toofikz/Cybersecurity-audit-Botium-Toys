@@ -1,30 +1,57 @@
-# Internal IT Audit for Botium Toys
+# Cybersecurity Audit: Botium Toys
 
-## Scope and Goals
-**Scope:**  
-The audit encompasses the entire security program of Botium Toys, focusing on:  
-- Employee equipment and devices.  
-- Internal network and systems.  
-- On-premises equipment and retail products.  
-- Management of systems, software, and services, including accounting, e-commerce, and inventory.  
+## 👋 Introduction
+Hi! This project is a hands-on exercise where I conducted a simulated cybersecurity audit for a fictional company, **Botium Toys**. This was a great opportunity to apply industry-standard frameworks like **NIST CSF**, while analyzing compliance with **PCI DSS** and **GDPR** regulations.
 
-**Goals:**  
-- Assess existing assets and identify gaps in security controls and compliance.  
-- Complete a controls and compliance checklist to improve Botium Toys' security posture.  
+This repository showcases my ability to assess risks, identify gaps in security, and recommend actionable improvements. Below, you'll find everything from the audit scope to recommendations for improving Botium Toys' security posture.
 
-## Risk Assessment
-**Key Risks Identified:**  
-1. Inadequate asset management and lack of critical controls.  
-2. Non-compliance with U.S. and international regulations, including PCI DSS and GDPR.  
+---
 
-**Risk Score:**  
-8/10 – High risk due to insufficient controls and adherence to compliance standards.  
+## 🗂 Table of Contents
+- [Background](#background)
+- [Scope and Goals](#scope-and-goals)
+- [Risk Assessment](#risk-assessment)
+- [Controls Checklist](#controls-checklist)
+- [Compliance Checklist](#compliance-checklist)
+- [Recommendations](#recommendations)
+- [Reflection](#reflection)
+- [Conclusion](#conclusion)
 
-**Potential Impacts:**  
+---
+
+## 📖 Background
+**Botium Toys** is a small U.S.-based toy company with a growing online presence. The company faces challenges in securing its infrastructure and complying with regulations like **PCI DSS** (for payment security) and **GDPR** (for customer data privacy). This audit was conducted to identify risks and recommend improvements.
+
+---
+
+## 🎯 Scope and Goals
+### **Scope:**
+- Employee devices and equipment  
+- Internal network and systems  
+- On-premises equipment and retail inventory  
+- Management of systems, software, and services  
+
+### **Goals:**
+1. Identify gaps in security controls and compliance.  
+2. Provide actionable recommendations to improve the company’s security posture.  
+
+---
+
+## 🚨 Risk Assessment
+### **Key Risks Identified:**
+1. Poor asset management and missing critical controls.  
+2. Non-compliance with U.S. and international regulations.  
+
+### **Risk Score:**  
+**8/10** – High risk due to insufficient controls and compliance gaps.  
+
+### **Potential Impacts:**
 - Medium impact on business continuity due to asset loss.  
-- High risk of fines and data breaches due to non-compliance and insufficient security measures.  
+- High risk of fines and data breaches due to non-compliance.  
 
-## Controls Assessment Checklist
+---
+
+## ✅ Controls Checklist
 | Control                        | Status  |
 |--------------------------------|---------|
 | Least Privilege                | ❌      |
@@ -42,39 +69,66 @@ The audit encompasses the entire security program of Botium Toys, focusing on:
 | CCTV Surveillance              | ✅      |
 | Fire Detection/Prevention      | ✅      |
 
-## Compliance Checklist
-**PCI DSS:**  
-- Only authorized users have access to credit card information: ❌  
-- Secure environment for storing, processing, and transmitting credit card data: ❌  
+---
+
+## 🛡️ Compliance Checklist
+### **PCI DSS:**
+- Only authorized users access credit card information: ❌  
+- Secure environment for credit card data: ❌  
 - Data encryption procedures in place: ❌  
-- Secure password management policies: ❌  
+- Secure password policies: ❌  
 
-**GDPR:**  
-- E.U. customers' data privacy ensured: ✅  
+### **GDPR:**
+- E.U. customer data privacy ensured: ✅  
 - Breach notification plan (within 72 hours): ✅  
-- Data classification and inventory: ❌  
-- Privacy policies and documentation enforced: ✅  
+- Data properly classified and inventoried: ❌  
+- Privacy policies enforced: ✅  
 
-**SOC Type 1 & 2:**  
+### **SOC Type 1 & 2:**
 - User access policies established: ❌  
-- Sensitive data (PII/SPII) confidentiality ensured: ❌  
+- Sensitive data confidentiality ensured: ❌  
 - Data integrity validated: ✅  
 - Data availability for authorized individuals: ✅  
 
-## Recommendations
+---
+
+## 💡 Recommendations
 1. **Implement Missing Controls:**  
    - Enforce Least Privilege and Separation of Duties policies.  
    - Develop Disaster Recovery Plans and regular backups.  
    - Introduce an Intrusion Detection System (IDS) and encryption protocols.  
-   - Establish a centralized Password Management System with robust policies.  
+   - Establish a centralized Password Management System.  
 
 2. **Enhance Compliance:**  
-   - Secure customer credit card data by implementing PCI DSS best practices.  
-   - Classify and inventory data to ensure GDPR compliance.  
-   - Regularly audit and validate sensitive data to maintain SOC standards.  
+   - Secure customer credit card data with PCI DSS standards.  
+   - Classify and inventory data for GDPR compliance.  
+   - Audit and validate sensitive data regularly.  
 
-3. **Legacy System Management:**  
+3. **Improve Legacy System Management:**  
    - Schedule regular maintenance and define clear intervention protocols.  
 
-## Conclusion
-By addressing the identified gaps and implementing recommended controls, Botium Toys can significantly improve its security posture, ensure compliance with regulations, and protect critical assets against potential risks and threats.
+---
+
+## 🌟 Reflection
+This project was a great learning experience. I learned how to:
+- Analyze risks and identify vulnerabilities in a company's infrastructure.
+- Apply cybersecurity frameworks like **NIST CSF** to real-world scenarios.
+- Understand the importance of compliance with regulations like **PCI DSS** and **GDPR**.
+
+I’m excited to bring these skills to a professional environment and continue growing in the field of cybersecurity.
+
+---
+
+## 🏁 Conclusion
+By addressing the identified gaps, Botium Toys can significantly improve its security posture, ensure compliance, and protect critical assets against risks and threats.
+
+---
+
+## 📂 Documentation
+For detailed reports and additional files, see the [docs](./docs) folder.
+
+---
+
+## 📬 Contact
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/tawfikzoubayr/) or via email at **tawfik@example.com** for any questions or collaboration opportunities.
+
