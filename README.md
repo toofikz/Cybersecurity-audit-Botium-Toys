@@ -125,10 +125,12 @@ By addressing the identified gaps, Botium Toys can significantly improve its sec
 ---
 
 ## 📂 Documentation
-For detailed reports and additional files, see the [docs](./docs) folder.
 
----
+Additional files related to this project are available in the [docs folder](./docs). These include:
 
-## 📬 Contact
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/tawfikzoubayr/) or via email at **tawfik@example.com** for any questions or collaboration opportunities.
+1. **Audit Report**: A detailed document outlining the scope, goals, and findings of the cybersecurity audit.  
+2. **Controls and Compliance Checklist**: The completed checklist used to evaluate Botium Toys' security controls and compliance gaps.  
+
+Feel free to explore these files for more insights into the audit process.
+
 
